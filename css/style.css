@@ -1,0 +1,89 @@
+body {
+  background-color: #f9fff9;
+}
+
+.btn-primary {
+  background-color: #0ec10e;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0db00d;
+  outline-style: none;
+}
+
+.btn-primary:active {
+  background-color: #0db00d;
+}
+
+.btn {
+  vertical-align: baseline !important;
+}
+
+.hero-background-img {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-background-img::before {
+  content: "";
+  position: absolute;
+  background: url("../img/hero-banner.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.hero-background-img div .title {
+  font-size: 50px;
+}
+
+.hero-background-img div .title, .hero-background-img div .title-button {
+  max-width: 600px;
+  position: relative;
+  top: 250px;
+}
+
+#category-section {
+  min-height: 70.7vh;
+}
+
+#about-section {
+  min-height: 77.5vh;
+}
+
+.img-container {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.para-container {
+  max-width: 500px;
+}
+
+.grossary {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 100px;
+  min-height: 100px;
+}
+
+.grossary img {
+  width: 100px;
+}
+
+.product-images {
+  margin: 20px;
+  max-width: 50px;
+}
+
+footer {
+  position: relative;
+  bottom: 0%;
+}
+/*# sourceMappingURL=style.css.map */
